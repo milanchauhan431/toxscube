@@ -87,7 +87,7 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 define('FIREBASE_API_KEY','');
 
-define("LIVE_LINK","https://admix.scubeerp.in/");
+define("LIVE_LINK","");
 
 define('HOST_NAME','localhost');
 if($_SERVER['HTTP_HOST'] == 'localhost'):
@@ -97,13 +97,13 @@ if($_SERVER['HTTP_HOST'] == 'localhost'):
 	define('DEVELOPMENT',1);
 else:
 	define('SERVER_PREFIX','u764624070_');
-	define('USER_NAME',SERVER_PREFIX.'admix');
-	define('PASSWORD','Admix@123$');
+	define('USER_NAME',SERVER_PREFIX.'toxscube');
+	define('PASSWORD','Toxscube@123$');
 	define('DEVELOPMENT',0);
 endif;
 
-define('SITENAME','ADMIX');
-define('MASTER_DB', SERVER_PREFIX.'admix');
-define('POPUP_TITLE', 'ADMIX');
-define('ISO_COMPANY_TITLE', 'ADMIX');
+define('SITENAME','Toxscube');
+define('MASTER_DB', SERVER_PREFIX.'toxscube');
+define('POPUP_TITLE', 'Toxscube');
+define('ISO_COMPANY_TITLE', 'Toxscube');
 
